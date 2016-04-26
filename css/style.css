@@ -1,3 +1,4 @@
+
 body {
   font-size: 13px;
   line-height: 24px;
@@ -22,3 +23,122 @@ h2 {
   font-weight: bold;
   font-family: Cuprum, sans-serif;
 }
+
+
+.header-top {
+  background: #999;
+}
+
+.wrapper-center {
+  width:940px;
+  margin: 0 auto;
+}
+
+.top-bar {
+  margin: 0px;
+  padding: 0px;
+}
+
+.top-bar li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.top-logo {
+  box-sizing: border-box;
+  width: 220px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 24px;
+}
+
+.top-search {
+ width: 250px;
+}
+
+.description {
+  width: 300px;
+  display: inline-block;
+}
+
+.header-contact {
+  width: 300px;
+  display: inline-block;
+}
+
+.register {
+  width: 300px;
+  display: inline-block;
+}
+
+.header-menu ul li{
+  display: inline-block;
+}
+
+.promo-item {
+  display: inline-block; 
+  width: 300px;
+}
+
+.promo-slider {
+  float: left; 
+  width: 620px;
+  height: 100%;
+}
+
+.popular-item {
+  display: inline-block;
+  width: 220px;
+}
+
+.brand-banner {
+  display: inline-block;
+  width: 220px;
+}
+
+.service-list {
+  display: inline-block;
+  width:240px;
+}
+
+.service-description, 
+.guarantee-description,
+.credit-description {
+  display: inline-block;
+  width: 630px;
+}
+
+.about {
+font-size: 0px;
+}
+
+.about-company {
+  display: inline-block;
+  width: 560px;
+  margin-right: 80px; 
+}
+
+.about-contact {
+  display: inline-block;
+  width: 300px;
+}
+
+.footer-logo {
+  box-sizing: border-box;
+  width: 220px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 24px;
+  margin-right: 160px; 
+  display: inline-block;
+}
+
+.footer-menu, .footer-menu li {
+  display: inline-block;
+}
+
+.footer-menu ul {
+  width: 560px;
+}
+
+  
