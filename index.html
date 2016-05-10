@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
+    <link href='https://fonts.googleapis.com/css?family=Cuprum:400,400italic,700,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -15,21 +17,24 @@
 			
           <ul class="top-bar">
             <li class="top-logo"><!--
-            --><a href="#" class="logo">ТЕХНОМАРТ</a>
+            --><a href="index.html" class="logo">ТЕХНОМАРТ</a>
             </li><!--
           --><li class="top-search">
+              <span class="icon-search"></span>
               <form action="get">
                 <input type="text" name="top-search" placeholder="Поиск">
               </form>
             </li><!--
            --><li class="top-bookmark">
               <a href="#">
+                <span class="icon-bookmark"></span>
                 <span>Закладки:</span>
                 <span class="bookmark-value">0</span>
               </a><!--
           --></li><!--
           --><li class="top-cart"><!--
             --><a href="#">
+                <span class="icon-basket"></span>
                 <span>Корзина:</span>
                 <span class="cart-value">0</span>
               </a><!--
@@ -49,12 +54,15 @@
           </div><!--
 
         --><div class="header-contact">
-            <span class="tel">+7 (812) 555&#x2012;05&#x2012;55</span>
+            <span class="tel">
+              <span class="icon-phone"></span>
+              +7 (812) 555&#x2012;05&#x2012;55
+            </span>
             <p>г. Санкт&ndash;Петербург, ул. Б. Конюшенная, д. 19/8</p>
           </div><!--
 
         --><div class="register">
-            <a href="#" class="login">Войти</a>
+            <a href="#" class="login"><span class="icon-login"></span>Войти</a>
             <a href="#" class="reg">Регистрация</a>
           </div><!--
 				  
@@ -79,7 +87,8 @@
  			<section class="promo">
         
  			  <div class="promo-container">
-          <div class="promo-item promo-materials">
+          <div class="promo-item promo-materials ">
+            <div class="flag-new"></div>
             <h2>Материалы</h2>
             <a href="#">НА ЛЮБОЙ ВКУС</a>
           </div><!--
@@ -99,6 +108,8 @@
               <h2>ПЕРФОРАТОРЫ</h2>
               <span>Настоящие мужские игрушки</span>
             </div>
+            <span class="icon-left"></span>
+            <span class="icon-right"></span>
             <a href="catalog.html">ОТКРЫТЬ КАТАЛОГ</a>
           </div><!--
           --><div class="promo-item promo-sale">
@@ -124,8 +135,8 @@
  					<span class="old-price">32500</span>
  					<a class="price">25500 Р.</a>
  					<div class="action">
-            <a href="#" class="buy button"></a>
-            <a href="#" class="bookmark button"></a>
+            <a href="#" class="buy button">КУПИТЬ</a>
+            <a href="#" class="bookmark button">В ЗАКЛАДКИ</a>
           </div>
  			  </article><!--
  			--><article class="popular-item">
@@ -134,8 +145,8 @@
  					<span class="old-price">22500 Р.</span>
  					<a class="price">15500 Р.</a>
  					<div class="action">
-            <a href="#" class="buy button"></a>
-            <a href="#" class="bookmark button"></a>
+            <a href="#" class="buy button">КУПИТЬ</a>
+            <a href="#" class="bookmark button">В ЗАКЛАДКИ</a>
           </div>
  			  </article><!--
  	    --><article class="popular-item">
@@ -144,19 +155,19 @@
  					<span class="old-price">30500 Р.</span>
  					<a class="price">25500 Р.</a>
  					<div class="action">
-            <a href="#" class="buy button"></a>
-            <a href="#" class="bookmark button"></a>
+            <a href="#" class="buy button">КУПИТЬ</a>
+            <a href="#" class="bookmark button">В ЗАКЛАДКИ</a>
           </div>
  			  </article><!--
  	    --><article class="popular-item popular-new">
  	        <div class="flag-new"></div>
  					<img src="img/bosch3000.jpg" width="180" height="160" alt="Перфоратор BOSCH BFG 2000">
  					<h1>Перфоратор BOSCH BFG 2000</h1>
- 					<span class="old-price">30500 Р.</span>
+ 					<span class="old-price old-price-cancel">30500 Р.</span>
  					<a class="price">12500 Р.</a>
  					<div class="action">
-            <a href="#" class="buy button"></a>
-            <a href="#" class="bookmark button"></a>
+            <a href="#" class="buy button">КУПИТЬ</a>
+            <a href="#" class="bookmark button">В ЗАКЛАДКИ</a>
           </div>
  			  </article><!--
     --></section>
@@ -188,10 +199,11 @@
         </p>
         <div class="service-list">
           <ul class="service-item">
-            <li><a href="#">Доставка</a></li>
-            <li><a href="#">Гарантия</a></li>
+            <li><a href="#" >Доставка</a></li>
+            <li><a href="#" >Гарантия</a></li>
             <li><a href="#">Кредит</a></li>
           </ul>
+          <div class="list-shadow"></div>
         </div>
         <div class="service-description">
           <h2>ДОСТАВКА</h2>
@@ -275,9 +287,9 @@
             </span>
           </div>        
           <div class="social">
-            <a href="#" class="vk">Вконтакте</a>
-            <a href="#" class="fb">Facebook</a>
-            <a href="#" class="ig">Instagramm</a>
+            <a href="#" class="vk">Вконтакте <span class="icon-vk"></span></a>
+            <a href="#" class="fb">Facebook<span class="icon-facebook"></span></a>
+            <a href="#" class="ig">Instagramm<span class="icon-instagramm"></span></a>
           </div>
           <div class="feedback">
             <div class="feedback-mail">
