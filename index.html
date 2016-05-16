@@ -6,7 +6,7 @@
     <link href='https://fonts.googleapis.com/css?family=Cuprum:400,400italic,700,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mini.css">
   </head>
   <body>
 		
@@ -21,8 +21,9 @@
             </li><!--
           --><li class="top-search">
               <form action="get">
-                <input type="text" name="top-search" placeholder="Поиск:">
-              </form>
+                <input type="text" class="top-search-input" name="search" id="search" placeholder="Поиск:">
+                <label for="search" class="top-search-label"></label>
+              </form>  
             </li><!--
            --><li class="top-bookmark">
               <a href="#">
@@ -61,13 +62,16 @@
           </div><!--
 
         --><div class="register"><!--
-          --><a href="#" class="login"><span class="icon-login"></span>Войти</a><!--
+          --><a href="#" class="login">
+              <span class="icon-login"></span>
+              Войти
+          </a><!--
           --><a href="#" class="reg">Регистрация</a><!--
         --></div><!--
 				  
 				--><nav class="header-menu">
             <ul>
-              <li><a href="index.html">Главная</a></li><!--
+              <li><a class="main" href="index.html">Главная</a></li><!--
             --><li><a href="#">Компания</a></li><!--
             --><li><a href="catalog.html">Каталог</a></li><!--
             --><li><a href="#">Новости</a></li><!--
@@ -367,7 +371,7 @@
       <button class="modal-cart-close" type="button">Закрыть</button>
     </div>
     
-    <script src="js/main.js"></script>
+    <script src="js/mini-js.js"></script>
  	  
   </body>
 </html>
