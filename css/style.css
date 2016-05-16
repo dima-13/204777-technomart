@@ -1810,7 +1810,7 @@ a.sort-bar-enable {
 }
 .catalog-about {
     background-color: #f2f6f8;
-    padding: 65px;
+    padding-top: 65px;
     padding-bottom: 55px;
 }
 .catalog-about h2 {
