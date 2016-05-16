@@ -1234,6 +1234,9 @@ footer a {
     border-bottom: 5px solid #b52933;
     background-color: #ee3643;
 }
+.footer-logo a:hover {
+    background-color: #ca2c37;
+}
 .footer-menu {
     padding-left: 173px;
     padding-top: 39px;
@@ -1282,7 +1285,8 @@ footer a {
     text-decoration: none;
 }
 .footer-bottom {
-    padding: 36px;
+    padding-top: 36px;
+    padding-bottom: 36px;
     background-color: #293449;
 }
 .copyright,
@@ -1290,6 +1294,7 @@ footer a {
 .feedback {
     display: inline-block;
     vertical-align: top;
+    
 }
 .copyright {
     width: 230px;
